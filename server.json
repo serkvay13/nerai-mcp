@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.serkvay13/nerai-mcp",
+  "description": "Geopolitical grounding for AI agents: 60-country risk indices, calibrated forecasts with published validation, live maritime chokepoints, sanctions & trade controls. Every response dated, sourced and bounded. Free tier with instant key.",
+  "repository": {
+    "url": "https://github.com/serkvay13/nerai-mcp",
+    "source": "github"
+  },
+  "version": "1.1.0",
+  "websiteUrl": "https://neraicorp.com/ai-agents.html",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nerai-mcp.neraicorp.workers.dev/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <key>. Get a free key instantly: POST https://nerai-mcp.neraicorp.workers.dev/register {\"email\":\"you@co.com\"}",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

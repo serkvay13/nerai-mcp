@@ -5,6 +5,11 @@ compliance agent knows your systems; it does not know the world. NERAI is the
 world, as a tool call — 60 countries, calibrated forecasts, maritime chokepoints,
 sanctions and trade-control data, every answer source-linked and dated.
 
+<!-- mcp-name: io.github.serkvay13/nerai-mcp -->
+[![MCP Registry](https://img.shields.io/badge/MCP-Registry-blue)](https://registry.modelcontextprotocol.io)
+[![Free key](https://img.shields.io/badge/free_key-instant-brightgreen)](https://neraicorp.com/ai-agents.html)
+[![Pricing](https://img.shields.io/badge/pricing-%E2%82%AC0_%2F_%E2%82%AC490-navy)](https://nerai-mcp.neraicorp.workers.dev/pricing)
+
 **Remote MCP server** (Streamable HTTP) — no install, no local process:
 
 ```
@@ -41,6 +46,15 @@ Clients without a header field (e.g. Claude.ai custom connectors):
 | Supply chain | `get_supply_chain_risk` · `get_commodities` |
 | Maritime | `get_maritime_corridors` · `get_live_chokepoint_traffic` (live AIS) · `get_circumvention_corridors` |
 | Trade controls | `get_sanctions_overview` · `get_tradecontrol_changes` · `check_commodity_controls` · `find_enforcement_precedent` · `get_transaction_intelligence_status` |
+
+## Ask it something real
+
+Once connected, try these in your agent:
+
+> *"Which of these supplier countries deteriorated this month: Turkey, Kazakhstan, Egypt?"*
+> *"What is the live vessel count in the Strait of Hormuz versus baseline?"*
+> *"What changed in the UK and EU trade-control registers this week? Cite the legal instruments."*
+> *"Compare the risk trajectory of Poland and Romania over the next 13 weeks."*
 
 ## Why this one
 
